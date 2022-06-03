@@ -1,0 +1,25 @@
+main{
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    border: 5px solid black;
+    text-align: center;
+    margin: auto; 
+}
+
+div{
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    font-size: 100px;
+}
+
+.white{
+    background-color: bisque;
+}
+
+.black{
+    background-color: brown;
+}
+
+
